@@ -1,4 +1,10 @@
+# GraphQL Relay tutorial
+
+This work is based on the tutorial course [GraphQL: Data Fetching With Relay](https://www.linkedin.com/learning/graphql-data-fetching-with-relay) on LinkedIn by [Emmanuel Henri](https://www.linkedin.com/in/mannyhenri/)
+
 # Usage
+
+How to run the project:
 
 ## Build
 
