@@ -1,0 +1,35 @@
+// data tests
+mutation {
+  createFriend(input: {
+    firstName: "Maud",
+    lastName: "Hettinger",
+    gender: "female",
+    language: "English",
+    email: "manny@mannydesigns.com"
+  }) {
+    id
+  }
+}
+
+query {
+  getFriend(id: "758b28d53ae4958b4d35") {
+    firstName
+    lastName
+    language
+  }
+}
+
+mutation {
+  updateFriend(id:"54113d06dc2caa4edbdd", input: {
+    firstName: "Manny",
+    lastName: "Henri",
+    gender: "Male"
+  }) {
+    firstName
+    lastName
+    gender
+  }
+}
+
+
+
