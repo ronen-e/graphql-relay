@@ -1,6 +1,9 @@
 # GraphQL Relay tutorial
 
-This work is based on the tutorial course [GraphQL: Data Fetching With Relay](https://www.linkedin.com/learning/graphql-data-fetching-with-relay) on LinkedIn by [Emmanuel Henri](https://www.linkedin.com/in/mannyhenri/)
+This work is based on the tutorial course [GraphQL: Data Fetching With Relay](https://www.linkedin.com/learning/graphql-data-fetching-with-relay) on LinkedIn by [Emmanuel Henri](https://www.linkedin.com/in/mannyhenri/).
+
+It uses the latest versions of `webpack` and `babel` for building the project, and the latest `webpack-dev-server` to serve the files.
+The related plugins and dependencies have also been updated.
 
 # Usage
 
@@ -138,8 +141,8 @@ export default createFragmentContainer(Friend, {
 
 ## TODO:
 
-- check if `Friend_viewer` is necessary
-- what is watchman for ?
+- check if `Friend_viewer` is necessary.
+- what is `watchman` for ?
 
 ## Test data
 
